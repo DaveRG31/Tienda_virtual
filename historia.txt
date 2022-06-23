@@ -13,8 +13,4 @@ Pellentesque sed quam pretium, faucibus metus et, aliquam risus. Donec sit amet 
 
 Generated 5 paragraphs, 395 words, 2695 bytes of Lorem Ipsum
 
-Agregamos esta linea nueva   
-
-Agragamos una segunda linea nueva para su vida y obra maestra
-
-Agregamos otro texto para saber que accion va a tener
+Mañana nos enfocaremos en su vida laboral
