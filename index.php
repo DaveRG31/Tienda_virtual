@@ -1,6 +1,11 @@
 <?php
-// final * esta palabra define si puede ser heredada la clase o metodo
-class User
+
+interface Person // Esto es un contrato que se debe cumplir al implementar cualquier clase
+{
+    public function getName();
+}
+
+class Admin implements Person
 {
     public $name;
 
@@ -8,17 +13,9 @@ class User
     {
         $this->name = $name;
     }
-     public function getName()
-    {
-        return $this->name;
-    }
-}
-
-class Admin extends User
-{
     public function getName()
     {
-        return "Soy $this->name<br>";
+        return $this->name;
     }
 }
 
